@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Questions Bank - Yaksha</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <link href="css/responsive.css" rel="stylesheet" type="text/css">
+
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+    <style>
+
+    .rightside .rightdivTenant{
+        width: 100%;
+        float: left;
+        background-color: #eef5fb;
+        padding-top: 12px;
+        padding-left: 12px;
+        padding-right: 50px;
+        /*padding-bottom: 50px;*/ 
+        padding-bottom: 0px; 
+    }
+    .rightside .rightdivTenant h3.heading{
+        font-size: 46px;
+        line-height: 22px;
+        color: rgb(51,51,51);
+        font-family: "Segoe UI";
+        font-weight: 400;
+        padding-bottom: 50px;
+    }
+
+    .rightside .rightdivTenant .addqueform{
+        float: left;
+        width: 100%;
+    }
+    .rightside .rightdivTenant .addqueform .formfield{
+        float: left;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    
+    }
+        .rightside .rightdivTenant .addqueform label{
+        float: left;
+        width: 100%;
+        font-size: 12px;
+        color: rgb(0,0,0);
+        font-family: "Segoe UI";
+        padding-bottom: 9px;
+    }
+    
+    .rightside .rightdivTenant .addqueform select{
+        background-color: #fff;
+        border: 2px solid #8f9396;
+        padding: 5px;
+        width: 60%;
+        font-size: 13px;
+        color: rgb(0,0,0);
+        font-family: "Segoe UI";
+    }
+    .rightside .rightdivTenant .addqueform select.quequery{
+        background-color: #bfc4ca;
+        border: none;
+    }
+
+    .rightside .rightdivTenant .addqueform .selectoptions{
+        width: 75%;
+    }
+    .rightside .rightdivTenant .addqueform .selectoptions span{
+        font-size: 15px;
+        color: rgb(0,0,0);
+        font-family: "Segoe UI";
+        padding-bottom: 15px;
+    }
+    .rightside .rightdivTenant .addqueform .selectoptions .option{
+        float: left;
+        width: 100%;
+        padding-bottom: 9px;
+    }
+    .rightside .rightdivTenant .addqueform .selectoptions .option .choice{
+        float: right;
+    }
+    .rightside .rightdivTenant .addqueform .selectoptions .option span{
+        width: 10%;
+        float: left;
+    }
+    .rightside .rightdivTenant .addqueform .selectoptions .option input[type="text"]{
+        border: 2px solid #8f9396;
+        padding: 5px;
+        color: rgb(0,0,0);
+        font-family: "Segoe UI";
+        width: 60%;
+    }
+    </style>
+
+
+    <script>
+    function goback(){
+    window.location = "goback";
+    }
+    </script>
+
+
+    </head>
+    <body>
+        <div class="master-container">
+            <header>
+                <div class="container-fluid">
+                    <button class="nav-bar" type="button">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a href="#" class="yaksha-logo my-auto">
+                        YAK<span>SHA</span>
+                    </a>
+                    <nav class="">
+                        <button class="nav-bar-close" type="button">
+                            <i class="fa fa-close"></i>
+                        </button>
+                        <a href="dashboard.html">
+                            Dashboard
+                        </a>
+                        <a href="questions.html">
+                            Question Bank
+                        </a>
+                        <a href="tests.html">
+                            Tests
+                        </a>
+                        <a href="#" class="view-more active">
+                            LMS Admin Users <i class="fa fa-angle-down"></i>
+                        </a>
+                        <div class="more-nav">
+                            <a href="skills.html">
+                                Skills
+                            </a>
+                            <a href="cluster-management.html">
+                                Cluster Management
+                            </a>
+                            <a href="multi-file-test-result.html">
+                                Multi-file Test Results
+                            </a>
+                            <a href="#">
+                                Domain based Results
+                            </a>
+                            <a href="#">
+                                Modules Management
+                            </a>
+                            <a href="#">
+                                License Management
+                            </a>
+                            <a href="#">
+                                Results
+                            </a>
+                            <a href="#">
+                                Code Analysis Reports
+                            </a>
+                            <a href="#">
+                                Skill based Reports
+                            </a>
+                            <a href="#">
+                                Recomm Settings
+                            </a>
+                            <a href="#">
+                                Single File Test Reports
+                            </a>
+                            <a href="#">
+                                Test Links Management
+                            </a>
+                            <a href="#">
+                                LMS Admin Users
+                            </a>
+                            <a href="#">
+                                Job Description Management
+                            </a>
+                            <a href="#">
+                                Test Domain Attemps Mangement
+                            </a>
+                            <a href="#">
+                                Schedule Management
+                            </a>
+                            <a href="#">
+                                Verify Data
+                            </a>
+                            <a href="tenants.html">
+                                Tenant Management
+                            </a>
+                            <a href="users.html">
+                                Users
+                            </a>
+                        </div>
+                    </nav>
+                    <div class="user-info">
+                        <span class="my-auto">Firstname, Lastname</span>
+                        <div class="thumbnail my-auto">
+                            <span>TJ</span>
+                        </div>
+                        <button class="sign-out" type="button">
+                            <i class="fa fa-sign-out"></i>
+                        </button>
+                    </div>
+                </div>
+    </header>
+    <body>
+         
+                             <div class="column col-sm-12 col-xs-12" id="main">
+
+                        <div class="rightside" >
+
+                            
+
+                            <div class="rightdivTenant" >
+                                <h2class="heading">Add or Update Module</h2>
+                                <div class="addqueform" >
+       <form name="moduleForm" id="moduleForm" method="post" modelAttribute="module" action="saveModule">
+                                       
+
+                                       
+                    
+                    <div class="formfield">
+                                            <div class="selectoptions">
+                                             
+
+                                                <div id="maindivforaddmore">
+                                                    <div class="option">
+                                                   <label>Module Name</label>
+                                            
+<input id="moduleName" name="moduleName" name="moduleName" required="true" disabled="disabled" type="text" value="AI1"/>
+                            
+                            <input id="id" name="id" type="hidden" value="553029"/>
+                                                    </div>
+                                                    <div class="option">
+                                                        <label>Image URL (if applicable)</label>
+                           <input id="imageUrl" name="imageUrl" name="imageUrl" type="text" value="na"/>
+                                                    </div>
+                                                    <div class="option">
+                                                        <label>Video URL (if applicable)</label>
+                           <input id="videoUrl" name="videoUrl" name="videoUrl" type="text" value="na"/>
+                                                    </div>
+                                                    
+                                                   
+                                                    <div class="option">
+                                                        <label>Select Licenses (One or More)</label>
+                                            
+                                        <select id="lics" name="lics" multiple="multiple">
+                                            <option value="Big Data">Big Data</option><option value="AI and Machine Learning">AI and Machine Learning</option><option value="Cloud Labs">Cloud Labs</option><option value="Enterprise_Java_Free" selected="selected">Enterprise_Java_Free</option><option value="Enterprise_DotNet_Free">Enterprise_DotNet_Free</option><option value="Enterprise_Python_Free">Enterprise_Python_Free</option><option value="Automation &amp; Control Systems">Automation &amp; Control Systems</option><option value="IOT - Office Automation">IOT - Office Automation</option>
+                                        </select><input type="hidden" name="_lics" value="1"/>
+                                                    </div>
+                                                    
+                            <div class="option">
+                                                        <label>Add/Edit Module Items</label>
+                                                        <a  href="javascript:addModuleItem()">Click to Add </a>
+                                            <!--start -->
+                                        <div class="questiontablelist" style="height: 350px;">
+                                    <table class="table text-center" style="width:138%;" >
+                                        <thead>
+                                            <tr class="table heading">
+                                                <th>No</th>
+                                                <th>Module Item Name</th>
+                                                <th>Test Name</th>                    
+                                                <th>Edit Module Item</th>
+                                                <th>Remove Module Item</th>
+                                                
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                    <tbody>
+                                             
+                                                 
+                                                
+                                                <tr>
+
+                                        <td>1</td>      
+                                                    <td>Item 1  </td>
+                                                    <td>1234</td>
+                                                    
+                                                    
+                                        <td><a  href="javascript:editModuleItem.html(553030)">Edit </a> </td>
+                                        <td><a  href="javascript:removeModuleItem(553030)">Remove </a> </td>
+                                        
+                                                </tr>
+                                                   
+                                              </tbody>
+                                           
+                                        </tbody>
+                                    </table>
+                                </div>
+                                        <!-- end -->
+                                                    </div>
+                            
+                             <div class="formfield savebtn">
+                            <input class="save" type="submit" value="Save Module">
+                        
+                            <input type="button" value="Cancel" onClick="location.href='modules';">
+                        </div>
+                                                </div>
+                                            </div>
+                
+                                            
+                                        </div>
+
+                                       
+                    
+                    
+
+                                    </form>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+    </body>
+    </html>
